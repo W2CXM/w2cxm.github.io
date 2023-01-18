@@ -142,11 +142,11 @@ en: &DEFAULT_EN
     title: "Officers"
     section: team
     people:
-      - name: "Esther Li"
+      - name: "Zach Garcia"
         role: "President"
-        image: assets/img/team/esther.jpeg
+        image: assets/img/team/zach.jpg
         social:
-          - url: mailto:el633@cornell.edu
+          - url: mailto:zag7@cornell.edu
             icon: fas fa-envelope
       - name: "Mike Hojnowski"
         role: "Advisor"
@@ -154,11 +154,17 @@ en: &DEFAULT_EN
         social:
           - url: mailto:kd2eat@gmail.com
             icon: fas fa-envelope   
-      - name: "Sam Cobado"
+      - name: "Beth Polito"
         role: "Vice President"
-        image: assets/img/team/sam.jpg
+        image: assets/img/team/beth.png
         social:
-          - url: mailto:sec322@cornell.edu
+          - url: mailto:emp234@cornell.edu
+            icon: fas fa-envelope
+      - name: "Sarah Hawes"
+        role: "Project Coordinator"
+        image: assets/img/team/sarah.jpg
+        social:
+          - url: mailto:ssh93@cornell.edu
             icon: fas fa-envelope
       - name: "Lauren Greenhill"
         role: "Treasurer"
