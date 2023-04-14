@@ -125,7 +125,7 @@ en: &DEFAULT_EN
               <details>
                 <summary>Amateur Satellite Station</summary>
                 <br>
-                In May 1998, W2CXM acquired a TS-790 144/440 MHz all-mode transceiver and began construction of an amateur satellite station.
+                The last few years of the 90s brought an increased interest in satellite communications, with both current and alumni club members pitching in to build antenna tracking arrays and making contacts.
               </details> 
         image: assets/img/timeline/90s.jpg
       - title: "2000's"
@@ -133,7 +133,25 @@ en: &DEFAULT_EN
               <details>
                 <summary>Activity on Amateur frequencies</summary>
                 <br>
-                W2CXM, housed in the North West Tower of Barton Hall, Room 401, was active on all Amateur frequencies between 1.8 and 30MHz on AM, SSB, CW and RTTY. SSB, CW and packet activity were done on 2 meters. The club also operated a local 2 meter repeater.
+                The early 2000's saw a big increase in club popularity on campus, 
+                with the increased club size backing SAFC funding requests that 
+                netted project kits and new antennas, including a large Force12 
+                10-40m yagi which was mounted on Barton Hall South Tower and 
+                gave the club a worldwide presence. Popular events were foxhunts, 
+                project build nights, and pizza meetings, as well as voice, CW 
+                and digital contesting. The club won the University category in 
+                various national and international contests and set several 
+                contest records. The club also hosted an ISS contact session in 
+                Sept 2003 with Cornell alum Edward Lu '84 who was aboard the 
+                ISS at the time. After returning from his six months in space, 
+                Ed visited campus in June 2004 and was greeted by many club 
+                members, including those who talked to him during the contact. 
+                Club members featured prominently in early campus satellite 
+                project groups, including DawgSTAR and ICEcube, designing and 
+                building onboard radio systems and ground stations. ICEcube 
+                was set to use the W2CXM callsign from space but the launch vehicle 
+                shut down during flight and crashed into the Kazakh steppes, 
+                destroying all payloads.
               </details> 
         image: assets/img/timeline/00s.jpg
         align: right
@@ -142,11 +160,11 @@ en: &DEFAULT_EN
     title: "Officers"
     section: team
     people:
-      - name: "Esther Li"
+      - name: "Zach Garcia"
         role: "President"
-        image: assets/img/team/esther.jpeg
+        image: assets/img/team/zach.jpeg
         social:
-          - url: mailto:el633@cornell.edu
+          - url: mailto:zag7@cornell.edu
             icon: fas fa-envelope
       - name: "Mike Hojnowski"
         role: "Advisor"
@@ -154,17 +172,23 @@ en: &DEFAULT_EN
         social:
           - url: mailto:kd2eat@gmail.com
             icon: fas fa-envelope   
-      - name: "Sam Cobado"
+      - name: "Beth Polito"
         role: "Vice President"
-        image: assets/img/team/sam.jpg
+        image: assets/img/team/beth.png
         social:
-          - url: mailto:sec322@cornell.edu
+          - url: mailto:emp234@cornell.edu
             icon: fas fa-envelope
       - name: "Lauren Greenhill"
         role: "Treasurer"
         image: assets/img/team/lauren.jpg
         social:
           - url: mailto:ljg227@cornell.edu
+            icon: fas fa-envelope  
+      - name: "Sarah Hawes"
+        role: "Project Coordinator"
+        image: assets/img/team/sarah.jpg
+        social:
+          - url: mailto:ssh93@cornell.edu
             icon: fas fa-envelope  
   
   contact:
