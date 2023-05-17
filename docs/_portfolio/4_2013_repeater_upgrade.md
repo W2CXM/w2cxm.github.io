@@ -4,7 +4,7 @@ subtitle:
 image: assets/img/balloon/repeater_upgrade.jpeg
 
 caption:
-  title: Operation Lil' Bub
+  title: 2013 Repeater Upgrade
   thumbnail: assets/img/balloon/repeater_upgrade.jpeg
 ---
 
