@@ -160,12 +160,6 @@ en: &DEFAULT_EN
         image: assets/img/team/zach.jpg
         social:
           - url: mailto:zag7@cornell.edu
-            icon: fas fa-envelope
-      - name: "Mike Hojnowski"
-        role: "Advisor"
-        image: assets/img/team/mike.jpeg
-        social:
-          - url: mailto:kd2eat@gmail.com
             icon: fas fa-envelope   
       - name: "Beth Polito"
         role: "Vice President"
@@ -185,6 +179,12 @@ en: &DEFAULT_EN
         social:
           - url: mailto:ssh93@cornell.edu
             icon: fas fa-envelope  
+      - name: "Mike Hojnowski"
+        role: "Advisor"
+        image: assets/img/team/mike.jpeg
+        social:
+          - url: mailto:kd2eat@gmail.com
+            icon: fas fa-envelope
   
   contact:
     title: "Join"
