@@ -37,11 +37,6 @@ en: &DEFAULT_EN
 
   portfolio:
     title: "Projects"
-    text: | 
-          <button class="btn btn-primary btn-xl text-uppercase"
-            onclick="window.location.href='https://www.w2cxm.org/projects/start';" type="submit"> More Projects 
-          </button>
-
 
 
     section: portfolio
