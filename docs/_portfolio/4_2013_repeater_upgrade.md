@@ -99,13 +99,13 @@ The opinion of two local repeater builders, N2PYI and KD2SL, is that the SCom se
 | Remote Base Support                   |   YES<sup>1</sup> |       NO |           NO |              NO |     NO |
 | Cost<sup>4</sup> (w/ Rack Mount)      |  $295<sup>2</sup>  |    $339 |          $479 |            $367 |     $0 |
 
-1. <sup>1</sup>The Arcom RC210 supports Kenwood, Icom, Yaesu, and Doug Hall RBI-1 protocols for remote bases.
+<sup>1</sup>The Arcom RC210 supports Kenwood, Icom, Yaesu, and Doug Hall RBI-1 protocols for remote bases.
 
-2. <sup>2</sup>Does not include the autopatch ($149) or the audio delay ($35) modules. Can add an additional battery backup for the real-time clock ($49.95). Total of all bells & whistles: $529.
+<sup>2</sup>Does not include the autopatch ($149) or the audio delay ($35) modules. Can add an additional battery backup for the real-time clock ($49.95). Total of all bells & whistles: $529.
 
-3. <sup>3</sup>The ID-O-MATIC III is USB-programmed, and the Pi is programmed over SSH/whatever you feel like. We can actually plug the ID-O-MATIC III into the Pi and program remotely. That sounds pretty great.
+<sup>3</sup>The ID-O-MATIC III is USB-programmed, and the Pi is programmed over SSH/whatever you feel like. We can actually plug the ID-O-MATIC III into the Pi and program remotely. That sounds pretty great.
 
-4. <sup>4</sup>Only the IDOM+Pi option includes the cost of the Echolink/IRLP computer/embedded computer.
+<sup>4</sup>Only the IDOM+Pi option includes the cost of the Echolink/IRLP computer/embedded computer.
 
 One big remaining challenge is getting a phone line and network connection up at the repeater site. On the 10/30/2013 W2CXM net we came to the consensus that we should upgrade the controller even without these connections being guaranteed. Having the capability to use them allows for growth into the future, and none of these problems are insurmountable, even in the near future.
 
