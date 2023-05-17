@@ -157,7 +157,7 @@ en: &DEFAULT_EN
     people:
       - name: "Zach Garcia"
         role: "President"
-        image: assets/img/team/zach.jpeg
+        image: assets/img/team/zach.jpg
         social:
           - url: mailto:zag7@cornell.edu
             icon: fas fa-envelope
