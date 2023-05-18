@@ -64,7 +64,7 @@ Secondary Mission: **Failed**. The T-Beam shutdown at about 12,500m, leading to 
 #### Launch
 We filled the balloon a lot to target a faster ascent and descent rate since winds were quite high.
 
-![](assets/img/balloon/filled_balloon.jpg)
+<img src="assets/img/balloon/filled_balloon.jpg" width="300" />
 
 #### Actual track vs projected track
 
