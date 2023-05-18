@@ -39,7 +39,7 @@ Secondary Mission: **Failed**. The T-Beam shutdown at about 12,500m, leading to 
 <br>
 
 ### Final Package
-![](assets/img/balloon/payload_box.jpeg)
+<img src="assets/img/balloon/payload_box.jpeg" width="600" />
 <br>
 
 ### Balloon Prediction Input
@@ -64,11 +64,11 @@ Secondary Mission: **Failed**. The T-Beam shutdown at about 12,500m, leading to 
 #### Launch
 We filled the balloon a lot to target a faster ascent and descent rate since winds were quite high.
 
-<img src="assets/img/balloon/filled_balloon.jpg" width="300" />
+<img src="assets/img/balloon/filled_balloon.jpg" width="600" />
 
 #### Actual track vs projected track
 
-![](assets/img/balloon/actual_vs_predicted.png)
+<img src="assets/img/balloon/actual_vs_predicted.png" width="600" />
 
 |          	     |  **Predicted** |  **Actual**  |
 | -------------  |  ------------- |  ----------- |
@@ -92,7 +92,7 @@ The Action Cameras performed very well. The FPV camera provided great shots at t
 
 The balloon landed in an empty field. We were able to easily retrieve it after gaining landowner permission.
 
-![](assets/img/balloon/recovery_2.jpeg)
+<img src="assets/img/balloon/recovery_2.jpeg" width="600" />
 
 ### Lessons Learned
 
