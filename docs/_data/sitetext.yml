@@ -181,7 +181,7 @@ en: &DEFAULT_EN
     submit: "CampusGroups"
 
   footer:
-    legal: "This organization is a registered student organization of Cornell University."
+    legal: "Privacy Policy"
     social:
       - url: https://www.youtube.com/channel/UC_bR3oU5WFqyr0DrdO-_a8w/featured
         icon: "fab fa-youtube"
