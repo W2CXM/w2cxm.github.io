@@ -181,7 +181,7 @@ en: &DEFAULT_EN
     submit: "CampusGroups"
 
   footer:
-    legal: "Privacy Policy"
+    legal: "About Us"
     social:
       - url: https://www.youtube.com/channel/UC_bR3oU5WFqyr0DrdO-_a8w/featured
         icon: "fab fa-youtube"
