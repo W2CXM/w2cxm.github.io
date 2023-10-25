@@ -194,7 +194,7 @@ en: &DEFAULT_EN
         icon: "fab fa-facebook-f"
       - url: https://github.com/W2CXM
         icon: "fab fa-github"
-    text: This organization is a registered student organization of Cornell University.
+    legal: This organization is a registered student organization of Cornell University.
 
 en-US:
   <<: *DEFAULT_EN
