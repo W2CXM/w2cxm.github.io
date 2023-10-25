@@ -181,6 +181,7 @@ en: &DEFAULT_EN
     submit: "CampusGroups"
 
   footer:
+    legal: "This organization is a registered student organization of Cornell University."
     social:
       - url: https://www.youtube.com/channel/UC_bR3oU5WFqyr0DrdO-_a8w/featured
         icon: "fab fa-youtube"
@@ -188,8 +189,7 @@ en: &DEFAULT_EN
         icon: "fab fa-facebook-f"
       - url: https://github.com/W2CXM
         icon: "fab fa-github"
-    legal: This organization is a registered student organization of Cornell University.
-
+    
 en-US:
   <<: *DEFAULT_EN
 en-CA:
