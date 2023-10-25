@@ -155,18 +155,18 @@ en: &DEFAULT_EN
     title: "Officers"
     section: team
     people:
-      - name: "Beth Polito"
-        role: "Vice President"
-        image: assets/img/team/beth.png
-        social:
-          - url: mailto:emp234@cornell.edu
-            icon: fas fa-envelope
       - name: "Sarah Hawes"
         role: "President"
         image: assets/img/team/sarah.jpg
         social:
           - url: mailto:ssh93@cornell.edu
             icon: fas fa-envelope  
+      - name: "Beth Polito"
+        role: "Vice President"
+        image: assets/img/team/beth.png
+        social:
+          - url: mailto:emp234@cornell.edu
+            icon: fas fa-envelope
       - name: "Mike Hojnowski"
         role: "Advisor"
         image: assets/img/team/mike.jpeg
