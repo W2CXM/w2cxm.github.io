@@ -167,14 +167,8 @@ en: &DEFAULT_EN
         social:
           - url: mailto:emp234@cornell.edu
             icon: fas fa-envelope
-      - name: "Lauren Greenhill"
-        role: "Treasurer"
-        image: assets/img/team/lauren.jpg
-        social:
-          - url: mailto:ljg227@cornell.edu
-            icon: fas fa-envelope  
       - name: "Sarah Hawes"
-        role: "Project Coordinator"
+        role: "President"
         image: assets/img/team/sarah.jpg
         social:
           - url: mailto:ssh93@cornell.edu
@@ -200,6 +194,7 @@ en: &DEFAULT_EN
         icon: "fab fa-facebook-f"
       - url: https://github.com/W2CXM
         icon: "fab fa-github"
+    text: This organization is a registered student organization of Cornell University.
 
 en-US:
   <<: *DEFAULT_EN
