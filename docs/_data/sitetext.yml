@@ -16,7 +16,7 @@ en: &DEFAULT_EN
 
   services:
     title: "About Us"
-    text: "The Cornell Amateur Radio Club, W2CXM, is a group of undergraduates, graduates, and other members of the Cornell and Ithaca community whose common interest is the hobby of amateur radio. Amateur radio activity at Cornell University dates as far back as 1915, under the callsign “8XU.” Formed in 1949, W2CXM has been licensed under the callsign “W2CXM” since 1951. W2CXM is affiliated with the American Radio Relay League and is funded annually by the Student Activities Finance Commission."
+    text: "The Cornell Amateur Radio Club, W2CXM, is a group of undergraduates, graduates, and other members of the Cornell and Ithaca community whose common interest is the hobby of amateur radio. Amateur radio activity at Cornell University dates as far back as 1915, under the callsign “8XU.” Formed in 1949, W2CXM has been licensed under the callsign “W2CXM” since 1951. W2CXM is affiliated with the American Radio Relay League and is funded annually by the Student Activities Finance Commission. This organization is a registered student organization of Cornell University."
     section: services
     list:
       - title: "Capabilities"
@@ -181,7 +181,6 @@ en: &DEFAULT_EN
     submit: "CampusGroups"
 
   footer:
-    legal: "About Us"
     social:
       - url: https://www.youtube.com/channel/UC_bR3oU5WFqyr0DrdO-_a8w/featured
         icon: "fab fa-youtube"
