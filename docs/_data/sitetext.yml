@@ -155,12 +155,6 @@ en: &DEFAULT_EN
     title: "Officers"
     section: team
     people:
-      - name: "Zach Garcia"
-        role: "President"
-        image: assets/img/team/zach.jpg
-        social:
-          - url: mailto:zag7@cornell.edu
-            icon: fas fa-envelope   
       - name: "Beth Polito"
         role: "Vice President"
         image: assets/img/team/beth.png
