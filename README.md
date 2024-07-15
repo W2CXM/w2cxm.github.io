@@ -1,4 +1,4 @@
-Website for the Amateur Radio Club at Cornell University.
+Website for the Cornell University Amateur Radio Club.
 
 Uses [Agency Jekyll Theme](https://github.com/raviriley/agency-jekyll-theme-starter)
 

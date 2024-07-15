@@ -1,13 +1,13 @@
 remote_theme: raviriley/agency-jekyll-theme
 
 domain: w2cxm.github.io
-url    : https://w2cxm.github.io 
+url: https://w2cxm.github.io
 baseurl: ""
 
-title      : Amateur Radio Club at Cornell
-email      : hamradio-l-request@cornell.edu
-description: The Amateur Radio Club at Cornell University
-logo:     
+title: Cornell Amateur Radio Club
+email: hamradio-l-request@cornell.edu
+description: The Cornell University Amateur Radio Club
+logo:
   path: assets\img\logo.jpeg
   height: 60 #height in px, defaults to 52px
 
