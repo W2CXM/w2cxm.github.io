@@ -155,17 +155,17 @@ en: &DEFAULT_EN
     title: "Officers"
     section: team
     people:
-      - name: "Sarah Hawes"
+      - name: "Andrew Lewis"
         role: "President"
-        image: assets/img/team/sarah.jpg
+        image: assets/img/team/andrew.jpg
         social:
-          - url: mailto:ssh93@cornell.edu
+          - url: mailto:ail36@cornell.edu
             icon: fas fa-envelope  
-      - name: "Beth Polito"
-        role: "Vice President"
-        image: assets/img/team/beth.png
+      - name: "Steven Whitney"
+        role: "Treasurer"
+        image: assets/img/team/steven.png
         social:
-          - url: mailto:emp234@cornell.edu
+          - url: mailto:sw2324@cornell.edu
             icon: fas fa-envelope
       - name: "Mike Hojnowski"
         role: "Advisor"
