@@ -155,17 +155,17 @@ en: &DEFAULT_EN
     title: "Officers"
     section: team
     people:
-      - name: "Andrew Lewis"
+      - name: "Daria Kuzovkova"
         role: "President"
-        image: assets/img/team/andrew.jpg
+        image: assets/img/team/daria.jpg
         social:
-          - url: mailto:ail36@cornell.edu
+          - url: mailto:dk638@cornell.edu
             icon: fas fa-envelope  
-      - name: "Steven Whitney"
-        role: "Treasurer"
+      - name: "Bobby King"
+        role: "Secretary"
         image: assets/img/team/steven.png
         social:
-          - url: mailto:sw2324@cornell.edu
+          - url: mailto:rjm496@cornell.edu
             icon: fas fa-envelope
       - name: "Mike Hojnowski"
         role: "Advisor"
