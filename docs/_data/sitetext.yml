@@ -155,17 +155,38 @@ en: &DEFAULT_EN
     title: "Officers"
     section: team
     people:
-      - name: "Daria Kuzovkova"
+      - name: "Polina Doronkina"
         role: "President"
-        image: assets/img/team/daria.png
         social:
-          - url: mailto:dk638@cornell.edu
-            icon: fas fa-envelope  
+          - url: mailto:pd445@cornell.edu
+            icon: fas fa-envelope
+      - name: "Tesla Lukow"
+        role: "Vice President"
+        social:
+          - url: mailto:tjl248@cornell.edu
+            icon: fas fa-envelope
+      - name: "Valene McInerney"
+        role: "Treasurer"
+        social:
+          - url: mailto:vrm39@cornell.edu
+            icon: fas fa-envelope
       - name: "Bobby King"
         role: "Secretary"
         image: assets/img/team/bobby.png
         social:
           - url: mailto:rjm496@cornell.edu
+            icon: fas fa-envelope
+      - name: "Steven Whitney"
+        role: "Couch Carrier"
+        image: assets/img/team/newersteven.png
+        social:
+          - url: mailto:w2cxm@w2cxm.org
+            icon: fas fa-envelope  
+      - name: "Avram Dreyer"
+        role: "Vice Couch Carrier"
+        image: assets/img/team/avram.jpg
+        social:
+          - url: mailto:w2cxm@w2cxm.org
             icon: fas fa-envelope
       - name: "Mike Hojnowski"
         role: "Advisor"
