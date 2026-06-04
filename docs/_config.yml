@@ -8,7 +8,7 @@ title: Cornell Amateur Radio Club
 email: w2cxm@cornell.edu
 description: The Cornell University Amateur Radio Club
 logo:
-  path: assets\img\logo.jpeg
+  path: assets/img/logo.jpeg
   height: 60 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
