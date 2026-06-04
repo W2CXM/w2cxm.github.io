@@ -155,26 +155,37 @@ en: &DEFAULT_EN
     title: "Officers"
     section: team
     people:
-      - name: "Polina Doronkina"
-        role: "President"
-        social:
-          - url: mailto:pd445@cornell.edu
-            icon: fas fa-envelope
       - name: "Tesla Lukow"
-        role: "Vice President"
+        role: "President"
         social:
           - url: mailto:tjl248@cornell.edu
             icon: fas fa-envelope
-      - name: "Valene McInerney"
+      - name: "Polina Doronkina"
+        role: "Vice President"
+        social:
+          - url: mailto:pd445@cornell.edu
+            icon: fas fa-envelope
+      # - name: "Valene McInerney"
+      #   role: "Treasurer"
+      #   social:
+      #     - url: mailto:vrm39@cornell.edu
+      #       icon: fas fa-envelope
+      # - name: "Bobby King"
+      #   role: "Secretary"
+      #   image: assets/img/team/bobby.png
+      #   social:
+      #     - url: mailto:rjm496@cornell.edu
+      #       icon: fas fa-envelope
+      - name: "Avram Dreyer"
+        role: "Secretary"
+        image: assets/img/team/avram.jpg
+        social:
+          - url: mailto:ajd335@cornell.edu
+            icon: fas fa-envelope
+      - name: "Pradhyum Rajasekar"
         role: "Treasurer"
         social:
-          - url: mailto:vrm39@cornell.edu
-            icon: fas fa-envelope
-      - name: "Bobby King"
-        role: "Secretary"
-        image: assets/img/team/bobby.png
-        social:
-          - url: mailto:rjm496@cornell.edu
+          - url: mailto:pr483@cornell.edu
             icon: fas fa-envelope
       - name: "Steven Whitney"
         role: "Couch Carrier"
@@ -182,12 +193,6 @@ en: &DEFAULT_EN
         social:
           - url: mailto:w2cxm@w2cxm.org
             icon: fas fa-envelope  
-      - name: "Avram Dreyer"
-        role: "Vice Couch Carrier"
-        image: assets/img/team/avram.jpg
-        social:
-          - url: mailto:w2cxm@w2cxm.org
-            icon: fas fa-envelope
       - name: "Mike Hojnowski"
         role: "Advisor"
         image: assets/img/team/mike.jpeg
