@@ -1,2 +1,5 @@
 name = "w2cxm-github-io"
-pages_build_output_dir = "_site"
+compatibility_date = "2026-06-04"
+
+[assets]
+directory = "./_site"
