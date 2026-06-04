@@ -2,4 +2,4 @@
 layout: home
 ---
 
-<link rel="shortcut icon" type="image/x-icon" href="logo.ico">
+<link rel="icon" type="image/jpeg" href="assets/img/logo.jpeg">
