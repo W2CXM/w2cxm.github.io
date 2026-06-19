@@ -6,14 +6,26 @@ header:
 
 services:
   title: "About Us"
-  text: "The Cornell Amateur Radio Club, W2CXM, is a group of undergraduates, graduates, and other members of the Cornell and Ithaca community whose common interest is the hobby of amateur radio. Amateur radio activity at Cornell University dates as far back as 1915, under the callsign "8XU." Formed in 1949, W2CXM has been licensed under the callsign "W2CXM" since 1951. W2CXM is affiliated with the American Radio Relay League and is funded annually by the Student Activities Finance Commission. This organization is a registered student organization of Cornell University."
+  text: >-
+    The Cornell Amateur Radio Club, W2CXM, is a group of undergraduates, graduates, and other
+    members of the Cornell and Ithaca community whose common interest is the hobby of amateur radio.
+    Amateur radio activity at Cornell University dates as far back as 1915, under the callsign "8XU."
+    Formed in 1949, W2CXM has been licensed under the callsign "W2CXM" since 1951. W2CXM is
+    affiliated with the American Radio Relay League and is funded annually by the Student Activities
+    Finance Commission. This organization is a registered student organization of Cornell University.
   section: services
   list:
     - title: "Capabilities"
       desc: "Cornell's radio club has a complete station available for use by its members 24 hours a day. Our capabilities include SSB (voice) Digital (RTTY,PSK,APRS,ETC..) , and CW (Morse code) communication of HF (1.8 - 30 MHz) and FM, SSB, and CW on 2 meters (144 - 148 MHz) as well as equipment for short-wave listening. The club has a 2 meter repeater operating on 146.610 MHz to aid in providing reliable local communications."
       icon: fas fa-broadcast-tower
     - title: "Public Service"
-      desc: "W2CXM also uses its equipment to provide a number of public services. During natural disasters, members have aided in handling messages to and from afflicted areas. The club has also provided "phone patches" allowing national or international communications using only a local phone call for a student and his or her family. Locally, club members can assist in communications during emergencies, walkathons, races, etc., using our 2 meter repeater. All public services of W2CXM are voluntary and free of charge."
+      desc: >-
+        W2CXM also uses its equipment to provide a number of public services. During natural
+        disasters, members have aided in handling messages to and from afflicted areas. The club has
+        also provided "phone patches" allowing national or international communications using only a
+        local phone call for a student and his or her family. Locally, club members can assist in
+        communications during emergencies, walkathons, races, etc., using our 2 meter repeater. All
+        public services of W2CXM are voluntary and free of charge.
       icon: fas fa-first-aid
     - title: "Competitions"
       desc: "W2CXM has had successful two-way communication with radio amateurs in well over 250 countries around the world including such places as Uganda, Mongolia, Antarctica, Qatar, Nepal, and Ghana. The club participates in amateur radio competitions for sport and emergency preparedness, both national and international, which test the operating skills of the competitors and the performance of equipment."
