@@ -129,7 +129,7 @@ At the time of the fill, we put in more gas. The tanks were nearly empty, and we
 
 #### Actual track vs projected track
 
-![](assets/img/balloon/google_earth_comparison.jpg)
+![](assets/img/balloon/google_earth_comparison.png)
 
 |          	     |   | **Predicted** |   | **Actual**  |
 | -------------  | - | ------------- | - | ----------- |
