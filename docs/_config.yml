@@ -1,5 +1,3 @@
-remote_theme: raviriley/agency-jekyll-theme
-
 domain: www.w2cxm.org
 url: https://www.w2cxm.org/
 baseurl: ""
@@ -26,5 +24,4 @@ markdown: kramdown
 # formspree_form_path: "f/a_form_id"
 
 plugins:
-  - jekyll-remote-theme
   - jekyll-sitemap
