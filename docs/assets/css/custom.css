@@ -1,0 +1,63 @@
+/* Replace deprecated Droid Serif with Lora */
+.page-section h3.section-subheading,
+header.masthead .intro-text .intro-lead-in,
+#portfolio .portfolio-item .portfolio-caption p,
+.portfolio-modal .modal-content p.item-intro {
+  font-family: "Lora", Georgia, "Times New Roman", serif;
+}
+
+/* Fix selection highlight: text must be readable on red background */
+::-moz-selection { background: #B31B1B; color: white; text-shadow: none; }
+::selection { background: #B31B1B; color: white; text-shadow: none; }
+
+/* Timeline circle: match border to background so empty circles look intentional */
+.timeline > li .timeline-image {
+  border-color: #B31B1B;
+  overflow: hidden;
+}
+.timeline > li .timeline-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Team member photos: cover crop, neutral bg for missing images */
+.team-member img {
+  object-fit: cover;
+  background-color: #e9ecef;
+}
+
+/* Style <details>/<summary> in timeline history entries */
+.timeline-body details {
+  border-left: 3px solid #e9ecef;
+  padding-left: 14px;
+  margin: 4px 0;
+  transition: border-color 0.2s;
+}
+.timeline-body details[open] {
+  border-left-color: #B31B1B;
+}
+.timeline-body details summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: #B31B1B;
+  list-style: none;
+  padding: 4px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.timeline-body details summary::-webkit-details-marker {
+  display: none;
+}
+.timeline-body details summary::before {
+  content: '+ ';
+  font-family: monospace;
+  font-size: 1.1em;
+  font-weight: 700;
+}
+.timeline-body details[open] summary::before {
+  content: '− ';
+}
+.timeline-body details > *:not(summary) {
+  margin-top: 8px;
+}
