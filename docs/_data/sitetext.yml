@@ -12,7 +12,7 @@
 en: &DEFAULT_EN
   header:
     title: ""
-    text: Cornell's Premiere Amateur Radio Club since 1915
+    text: Cornell's Premiere Amateur Radio Club Since 1915
     button: Join
     buttonlink: "#contact"
 
@@ -154,6 +154,7 @@ en: &DEFAULT_EN
   team:
     title: "Officers"
     text: ""
+    subtext: ""
     section: team
     people:
       - name: "Tesla Lukow"
