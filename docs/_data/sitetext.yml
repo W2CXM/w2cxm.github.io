@@ -1,227 +1,206 @@
-#
-# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
-#
-# Configuration: Add to _config.yml
-# locale: "en-US"  [YOUR PREFERRED LOCALE]
-#
-# How to use:
-# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+header:
+  title: ""
+  text: Cornell's Premiere Amateur Radio Club Since 1915
+  button: Join
+  buttonlink: "#contact"
 
-# English (default)
-# -----------------
-en: &DEFAULT_EN
-  header:
-    title: ""
-    text: Cornell's Premiere Amateur Radio Club Since 1915
-    button: Join
-    buttonlink: "#contact"
+services:
+  title: "About Us"
+  text: "The Cornell Amateur Radio Club, W2CXM, is a group of undergraduates, graduates, and other members of the Cornell and Ithaca community whose common interest is the hobby of amateur radio. Amateur radio activity at Cornell University dates as far back as 1915, under the callsign "8XU." Formed in 1949, W2CXM has been licensed under the callsign "W2CXM" since 1951. W2CXM is affiliated with the American Radio Relay League and is funded annually by the Student Activities Finance Commission. This organization is a registered student organization of Cornell University."
+  section: services
+  list:
+    - title: "Capabilities"
+      desc: "Cornell's radio club has a complete station available for use by its members 24 hours a day. Our capabilities include SSB (voice) Digital (RTTY,PSK,APRS,ETC..) , and CW (Morse code) communication of HF (1.8 - 30 MHz) and FM, SSB, and CW on 2 meters (144 - 148 MHz) as well as equipment for short-wave listening. The club has a 2 meter repeater operating on 146.610 MHz to aid in providing reliable local communications."
+      icon: fas fa-broadcast-tower
+    - title: "Public Service"
+      desc: "W2CXM also uses its equipment to provide a number of public services. During natural disasters, members have aided in handling messages to and from afflicted areas. The club has also provided "phone patches" allowing national or international communications using only a local phone call for a student and his or her family. Locally, club members can assist in communications during emergencies, walkathons, races, etc., using our 2 meter repeater. All public services of W2CXM are voluntary and free of charge."
+      icon: fas fa-first-aid
+    - title: "Competitions"
+      desc: "W2CXM has had successful two-way communication with radio amateurs in well over 250 countries around the world including such places as Uganda, Mongolia, Antarctica, Qatar, Nepal, and Ghana. The club participates in amateur radio competitions for sport and emergency preparedness, both national and international, which test the operating skills of the competitors and the performance of equipment."
+      icon: fas fa-medal
 
-  services:
-    title: "About Us"
-    text: "The Cornell Amateur Radio Club, W2CXM, is a group of undergraduates, graduates, and other members of the Cornell and Ithaca community whose common interest is the hobby of amateur radio. Amateur radio activity at Cornell University dates as far back as 1915, under the callsign “8XU.” Formed in 1949, W2CXM has been licensed under the callsign “W2CXM” since 1951. W2CXM is affiliated with the American Radio Relay League and is funded annually by the Student Activities Finance Commission. This organization is a registered student organization of Cornell University."
-    section: services
-    list:
-      - title: "Capabilities"
-        desc: "Cornell’s radio club has a complete station available for use by its members 24 hours a day. Our capabilities include SSB (voice) Digital (RTTY,PSK,APRS,ETC..) , and CW (Morse code) communication of HF (1.8 - 30 MHz) and FM, SSB, and CW on 2 meters (144 - 148 MHz) as well as equipment for short-wave listening. The club has a 2 meter repeater operating on 146.610 MHz to aid in providing reliable local communications."
-        icon: fas fa-broadcast-tower
-      - title: "Public Service"
-        desc: "W2CXM also uses its equipment to provide a number of public services. During natural disasters, members have aided in handling messages to and from afflicted areas. The club has also provided “phone patches” allowing national or international communications using only a local phone call for a student and his or her family. Locally, club members can assist in communications during emergencies, walkathons, races, etc., using our 2 meter repeater. All public services of W2CXM are voluntary and free of charge."
-        icon: fas fa-first-aid
-      - title: "Competitions"
-        desc: "W2CXM has had successful two-way communication with radio amateurs in well over 250 countries around the world including such places as Uganda, Mongolia, Antarctica, Qatar, Nepal, and Ghana. The club participates in amateur radio competitions for sport and emergency preparedness, both national and international, which test the operating skills of the competitors and the performance of equipment."
-        icon: fas fa-medal
+about:
+  title: |
+    <a href="https://www.w2cxm.org/resources/hamradio">Resources</a>
+  body: Here is a link to our previous website with more resources.
 
-  about:
-    title: |
-      <a href="https://www.w2cxm.org/resources/hamradio">Resources</a>
-    body: Here is a link to our previous website with more resources.
+portfolio:
+  title: "Projects"
+  text: ""
+  section: portfolio
+  closebutton: "Close Project"
 
-  portfolio:
-    title: "Projects"
-    text: ""
-    section: portfolio
-    closebutton: "Close Project"
+timeline:
+  title: "History"
+  text: "We are continually striving to make this history more complete. Please! If you are a former W2CXM member, share any stories or pictures you have with us and let us know what you are doing these days!"
+  section: timeline
+  events:
+    - title: "1915"
+      desc: |
+        <details>
+          <summary>Beginnings</summary>
+          <br>The history of Amateur Radio at Cornell University can be traced back to 1915 when Cornell was issued the experimental station callsign of 8YC. In fact, the February 1916 issue of QST lists 8YC as having been heard at 1VN in Hartford, Connecticut, at a then remarkable distance of 400 miles. At the time the Cornell station was using a 1 kW spark transmitter. Other station callsigns during this period include 8XT and 8XU issued in 1916. According to various correspondence the 8XU callsign for Cornell was active for at least ten years. If the call letters seem odd to you, you must realize that at this time radio had not reached international organization - there were no country prefixes - and New York State was part of the eighth call district, not the second.
+          <br><br>Correspondence on file with the Cornell Amateur Radio Club includes a letter from Alfred Manchee, K2ALF, a Cornell Electrical Engineering alumni who "operated the Cornell wireless station in the 20's when the lid went off after WW1. The station was under the direction of Professor William C. Ballard." In fact, it was Ballard who, in 1916, designed and built a 5 kW spark-driven transmitter that operated at 706 kilocycles per second and obtained a provisional license to operate it as an experimental wireless telegraphy station with the call 8YC. Just seven years before, Cornell had started offering it's first course in wireless technology, E 27 "Wireless Telegraphy and Telephony", an elective for EE school seniors taught by Instructor William H. Kroger. Ballard took over instruction of this course in 1915 after Kroger departed from Cornell.
+          <br><br>Charles Murray, W8ZA "remember(s) working the University station on numerous occasions on spark and at the time Cornell's assigned call letters were 8XU. All calls beginning with the letters X, Y, and Z were classed as Special Land Stations and they were carried in the List of Commercial and Government Radio Stations of the United States."
+        </details>
+      image: assets/img/timeline/15.jpg
+    - title: "1949"
+      desc: |
+        <details>
+          <summary>Founding</summary>
+          <br>The Cornell Amateur Radio Club as we know it today was formally organized in 1949 and three years later was issued the club call letters W2CXM which it holds to this day. Its early members were quite active in the American Radio Relay League's National Traffic System. The station has Brass Pounder League certificates dating from 1957-1958. W2CXM was issued its Worked All Continents award in 1955 and achieved DXCC in 1969 and has made contact with stations from such exotic locations as Albania, Mongolia, Antartica, Qatar, Nepal, and Ghana. The club has had a long affiliation with the ARRL and owns in its library a near complete QST collection dating from 1949 onward.
+        </details>
+      image: assets/img/timeline/49.jpg
+    - title: "1940's"
+      desc: |
+        <details>
+          <summary>Dick Seifert, KB2FF, who was involved with the club at the time of its founding, provides a look at the early days of W2CXM</summary>
+          <br> "All ham activity nationwide was suspended during WWII, except for low-power Civil Defense operation on the 2 1/2 Meter Band known as the War Emergency Radio Service. Cornell participated in the ham radio renaissance of the late 1940s through the leadership of Col. Vic Warren, U.S. Army Signal Corps, who was then Assistant Professor of Military Science & Tactics. The PMS&T was Gen. Ralph Hospital, U.S. Army. (Yes, the original "General Hospital!")
+          <br><br>We newly-minted hams arrived on The Hill in the Fall of 1948, only to find that antennas were prohibited on all the dorms and that there was no radio club on campus. Since Cornell was a Morrill Land Grant university, however, we all had the ROTC in common, and — thanks to Col. Warren — it wasn't long before we were allowed to fire up the gear in the Barton Hall Signal Corps classroom on the amateur HF bands, using AM, CW, and later RTTY. (SSB didn't exist then.) Main transmitter was the famous BC-610 (Hallicrafters HT-4), and receivers were BC-342s. We also got some SCR-609/610s going on 10-11 Meter FM, one of which we put in the Cornell Pilots' Club Piper J-2 for Cornell's first ham aeromobile station.
+          <br><br>As a matter of side-interest, Ithaca had no aviation radio whatsover until the CARC came along! We modified a war-surplus SCR-522 for AC-powered Unicom service and installed it in Ithaca Municipal Airport at the foot of Cayuga Lake. Tomkins County Airport hadn't been built yet. Our only regular air service was Robinson Airlines which flew some small twin Beechcrafts capable of using Ithaca Municipal's 1,200-foot runway. Robinson later became Mohawk, using DC-3s out of Tomkins County.
+          <br><br>Meanwhile, back at Barton Hall, Col. Warren scrounged a small room for us on the ground floor facing North — a hamshack of our own! Unlike the dorms, the College of Veterinary Medicine readily agreed to antennas strung from their building across to Barton, and using our own radios, we were now in business. Everything was either homebrew or modified surplus.
+          <br><br>Then we organized our motley crew. We had a dozen or so men and one cute, blonde coed whose name escapes me, but I think her callsign was either W2MVC or K2MVC. Our first President was Vic Wintriss. Others included Vic Clarke, W4OTR, Dave Zammat, W2WAL, Kirk Foucher, Claude Rochelle-Kagan, Dave Keiper, and Hugh Nutter. I was W2VZG at that time, a club member of course, but also heavily involved with Pi Tau Pi Sigma, the Signal Corps honorary fraternity.
+          <br><br>At graduation, we got diplomas in one hand and military travel orders in the other: alas, another war — Korea this time. Wintriss went Navy, Clarke to Air Force, and I to Fort Monmouth."
+        </details>
+      image: assets/img/timeline/40s.jpg
+    - title: "1960's"
+      desc: |
+        <details>
+          <summary>Richard Hayman '67, K3DML, writes about life around the W2CXM shack during the 60's</summary>
+          <br>"While on the air in November 1963 a British station broke in to express his sadness over the shooting of President John Kennedy. I was shocked that I, an American, heard about the events in Dallas from a British subject. A moment later another ham located at one of our air force bases in Greenland asked if there was a way to learn more.
+          <br><br>W2CXM then became the "unofficial" rebroadcaster of CBS news reports of the shooting. I'm not sure that was legal, but I really didn't care at the time.
+          <br><br>A few years later on my station located in my fraternity house I had a room full of brothers listening to my QSO with a military hospital ship in the South China Sea off the coast of Viet Nam. It was the closest most of us ever got to the war. We could even hear explosions in background…
+          <br><br>I'm sure some our radio brothers went on to do some wonderful and exciting things. But, remember, we did our programming and math on punch cards, slide rules and motor driven mechanical rotary calculators. We would punch in our numbers and go out for a cup of coffee. When we got back, we either had the answer or found our calculator had danced off the table onto the floor.
+          <br><br>Basic was a new langugage and the most exciting thing on engineering campus was a TTY attached to the phone line connecting it to a far away computer system.
+          <br><br>As engineers we made a visit to the IBM plant making the new integrated circuits. They were very proud that their yield on 7400 chips was about 3 chips in 100."
+        </details>
+      image: assets/img/timeline/60s.jpg
+    - title: "1970's"
+      desc: |
+        <details>
+          <summary>Bill Kelsey, N8ET, provides the following bits of history from the late 60's and early 70's</summary>
+          <br>"I went to Cornell BSEE '70, MBA '74, and was active at W2CXM during that time, and was president of the club around the '69 timeframe. Other calls that were active at that time were WB2CPV (now K1EA who wrote CT contest software) WB2CPU who has written several articles in the past few years, WA3HRV - now K3RV who does the propagation column in the NCJ. My call was WB2FGA - now N8ET - and any of your members who are into QRP might recognize my company - Kanga US - that sells QRP kits.
+          <br><br>I remember pieces of the antenna that is in the picture (above), but by the time I was a member we had a TH6 up on the tower. There was also an end-fed zepp that was strung between the two towers on Barton Hall, and as I recall it played quite well. It was fed thru a homebrew tuner that was mounted in the west window on the south wall of the tower.
+          <br><br>Equipment during those years consisted of a Central Electronics 200V transmitter (no tune - quite a novelty in those days) and it seems like there was a 75A4 rcvr for a while. We also had some Hallicrafters gear. I can remember the Johnson TX that is in one of the pictures (above) - I have no idea who the operator in the picture is though…. We also had a Swan Amplifier (pair of 3-400Z's that literally self-destructed one day - it arced from the plate cap to the case. I think we were able to salvage the final tank capacitor….. We rebuilt it with an external power supply, and it worked a lot better after that!)
+          <br><br>K1EA and K3RV used to do quite well in contests from W2CXM back in the late '60s and early '70s - both the DX tests and the ARRL CD parties. No memory keyers, but we had an early keyer (12AT7'a and a relay as I recall), and they could really make it play.
+          <br><br>One other comment for your historian - KA9Q - who wrote NOS for packet - was from Cornell, and I assume was a member of W2CXM."
+        </details>
+      image: assets/img/timeline/70s.jpg
+    - title: "1980's"
+      desc: |
+        <details>
+          <summary>Some of the highlights of this time period included:</summary>
+          <br>• Moving the antennas to the South tower.
+          <br>• Installing two runs of 7/8" hardline between the towers along the catwalks in Barton.
+          <br>• Station activity really picked up after moving the antennas. The TH6DXX tribander, tower, rotor, 7/8" hardline, and the F9FT 2-meter horizontal Yagi were acquired by the club in 1979.
+          <br>• Running licensing classes for Novices through the Experimental College.
+          <br>• Refurbishing the 2-meter repeater and converting it to microprocessor control using a SYM-1 6502-based controller that was programmed by paper tape!
+          <br>• Linking the 10-meter repeater to the 2-meter repeater. Talking to people all over the country using 10-meters from a handheld 2-meter rig on campus was quite a kick.
+          <br>• Converting old CB radios to 10 meter FM rigs.
+          <br>• Receiving a significant "donation" from the Physics department in the form of a lot of old junk they were going to throw out. Some of this junk is probably still cluttering the closets of W2CXM, having never been used. One notable piece of junk was some avionics radar pod that looked pretty cool.
+          <br>• In 1987, WA2PKP built a 24GHz Gunnplexer while he worked at M/A-Com, which was intended to serve as a two-way audio link between the repeater on Bradfield and the telephone line at the club station in Barton. It used an FM radio for the IF receiver.
+          <br>• Following the Mexico City earthquake of September 1985, W2CXM played an important role in helping Ithacans contact friends and family there. An article about W2CXM appeared in the September 28, 1988 issue of the Cornell Daily Sun.
+          <br><br> With the late 1980's came the W2CXM cube radio, a simple 2-meter receiver made from a modified Radio Shack weather radio cube. The cube was originally designed for a tech/general licensing class to listen in on repeaters for code practice. Headed by advisor and former president, Steve Powell, N2BU, club members assembled and sold kits for the cube radio at local hamfests. Alex Rudd (President CARC, '86-'89), KA2ZOO, comments on the huge success of the project: "As Steve might attest, for all the money generated and pride taken, the weather cube project got to be a little overwhelming. We all had fun (I think) lining up assembly-line style to put together weather cube conversion kits and selling completed cubes at area hamfests, but most of us were pretty happy when the whole thing was over and done with, too." An article about the W2CXM cube radio appears in the June 1987 issue of QST.
+        </details>
+      image: assets/img/timeline/80s.jpg
+    - title: "1990's"
+      desc: |
+        <details>
+          <summary>Amateur Satellite Station</summary>
+          <br>
+          The last few years of the 90s brought an increased interest in satellite communications, with both current and alumni club members pitching in to build antenna tracking arrays and making contacts.
+        </details>
+      image: assets/img/timeline/90s.jpg
+    - title: "2000's"
+      desc: |
+        <details>
+          <summary>Activity on Amateur frequencies</summary>
+          <br>
+          The early 2000's saw a big increase in club popularity on campus,
+          with the increased club size backing SAFC funding requests that
+          netted project kits and new antennas, including a large Force12
+          10-40m yagi which was mounted on Barton Hall South Tower and
+          gave the club a worldwide presence. Popular events were foxhunts,
+          project build nights, and pizza meetings, as well as voice, CW
+          and digital contesting. The club won the University category in
+          various national and international contests and set several
+          contest records. The club also hosted an ISS contact session in
+          Sept 2003 with Cornell alum Edward Lu '84 who was aboard the
+          ISS at the time. After returning from his six months in space,
+          Ed visited campus in June 2004 and was greeted by many club
+          members, including those who talked to him during the contact.
+          Club members featured prominently in early campus satellite
+          project groups, including DawgSTAR and ICEcube, designing and
+          building onboard radio systems and ground stations. ICEcube
+          was set to use the W2CXM callsign from space but the launch vehicle
+          shut down during flight and crashed into the Kazakh steppes,
+          destroying all payloads.
+        </details>
+      image: assets/img/timeline/00s.jpg
+      align: right
 
-  timeline:
-    title: "History"
-    text: "We are continually striving to make this history more complete. Please! If you are a former W2CXM member, share any stories or pictures you have with us and let us know what you are doing these days!"
-    section: timeline
-    events:
-      - title: "1915"
-        desc: |
-          <details>
-            <summary>Beginnings</summary>
-            <br>The history of Amateur Radio at Cornell University can be traced back to 1915 when Cornell was issued the experimental station callsign of 8YC. In fact, the February 1916 issue of QST lists 8YC as having been heard at 1VN in Hartford, Connecticut, at a then remarkable distance of 400 miles. At the time the Cornell station was using a 1 kW spark transmitter. Other station callsigns during this period include 8XT and 8XU issued in 1916. According to various correspondence the 8XU callsign for Cornell was active for at least ten years. If the call letters seem odd to you, you must realize that at this time radio had not reached international organization - there were no country prefixes - and New York State was part of the eighth call district, not the second.
-            <br><br>Correspondence on file with the Cornell Amateur Radio Club includes a letter from Alfred Manchee, K2ALF, a Cornell Electrical Engineering alumni who “operated the Cornell wireless station in the 20's when the lid went off after WW1. The station was under the direction of Professor William C. Ballard.” In fact, it was Ballard who, in 1916, designed and built a 5 kW spark-driven transmitter that operated at 706 kilocycles per second and obtained a provisional license to operate it as an experimental wireless telegraphy station with the call 8YC. Just seven years before, Cornell had started offering it's first course in wireless technology, E 27 “Wireless Telegraphy and Telephony”, an elective for EE school seniors taught by Instructor William H. Kroger. Ballard took over instruction of this course in 1915 after Kroger departed from Cornell.
-            <br><br>Charles Murray, W8ZA “remember(s) working the University station on numerous occasions on spark and at the time Cornell's assigned call letters were 8XU. All calls beginning with the letters X, Y, and Z were classed as Special Land Stations and they were carried in the List of Commercial and Government Radio Stations of the United States.”
-          </details>
-        image: assets/img/timeline/15.jpg
-      - title: "1949"
-        desc: |
-          <details>
-            <summary>Founding</summary>
-            <br>The Cornell Amateur Radio Club as we know it today was formally organized in 1949 and three years later was issued the club call letters W2CXM which it holds to this day. Its early members were quite active in the American Radio Relay League's National Traffic System. The station has Brass Pounder League certificates dating from 1957-1958. W2CXM was issued its Worked All Continents award in 1955 and achieved DXCC in 1969 and has made contact with stations from such exotic locations as Albania, Mongolia, Antartica, Qatar, Nepal, and Ghana. The club has had a long affiliation with the ARRL and owns in its library a near complete QST collection dating from 1949 onward.
-          </details>
-        image: assets/img/timeline/49.jpg
-      - title: "1940's"
-        desc: |
-          <details>
-            <summary>Dick Seifert, KB2FF, who was involved with the club at the time of its founding, provides a look at the early days of W2CXM</summary>
-            <br> "All ham activity nationwide was suspended during WWII, except for low-power Civil Defense operation on the 2 1/2 Meter Band known as the War Emergency Radio Service. Cornell participated in the ham radio renaissance of the late 1940s through the leadership of Col. Vic Warren, U.S. Army Signal Corps, who was then Assistant Professor of Military Science & Tactics. The PMS&T was Gen. Ralph Hospital, U.S. Army. (Yes, the original “General Hospital!”)
-            <br><br>We newly-minted hams arrived on The Hill in the Fall of 1948, only to find that antennas were prohibited on all the dorms and that there was no radio club on campus. Since Cornell was a Morrill Land Grant university, however, we all had the ROTC in common, and — thanks to Col. Warren — it wasn't long before we were allowed to fire up the gear in the Barton Hall Signal Corps classroom on the amateur HF bands, using AM, CW, and later RTTY. (SSB didn't exist then.) Main transmitter was the famous BC-610 (Hallicrafters HT-4), and receivers were BC-342s. We also got some SCR-609/610s going on 10-11 Meter FM, one of which we put in the Cornell Pilots' Club Piper J-2 for Cornell's first ham aeromobile station.
-            <br><br>As a matter of side-interest, Ithaca had no aviation radio whatsover until the CARC came along! We modified a war-surplus SCR-522 for AC-powered Unicom service and installed it in Ithaca Municipal Airport at the foot of Cayuga Lake. Tomkins County Airport hadn't been built yet. Our only regular air service was Robinson Airlines which flew some small twin Beechcrafts capable of using Ithaca Municipal's 1,200-foot runway. Robinson later became Mohawk, using DC-3s out of Tomkins County.
-            <br><br>Meanwhile, back at Barton Hall, Col. Warren scrounged a small room for us on the ground floor facing North — a hamshack of our own! Unlike the dorms, the College of Veterinary Medicine readily agreed to antennas strung from their building across to Barton, and using our own radios, we were now in business. Everything was either homebrew or modified surplus.
-            <br><br>Then we organized our motley crew. We had a dozen or so men and one cute, blonde coed whose name escapes me, but I think her callsign was either W2MVC or K2MVC. Our first President was Vic Wintriss. Others included Vic Clarke, W4OTR, Dave Zammat, W2WAL, Kirk Foucher, Claude Rochelle-Kagan, Dave Keiper, and Hugh Nutter. I was W2VZG at that time, a club member of course, but also heavily involved with Pi Tau Pi Sigma, the Signal Corps honorary fraternity.
-            <br><br>At graduation, we got diplomas in one hand and military travel orders in the other: alas, another war — Korea this time. Wintriss went Navy, Clarke to Air Force, and I to Fort Monmouth."
-          </details>
-        image: assets/img/timeline/40s.jpg
-      - title: "1960's"
-        desc: |
-          <details>
-            <summary>Richard Hayman '67, K3DML, writes about life around the W2CXM shack during the 60's</summary>
-            <br>"While on the air in November 1963 a British station broke in to express his sadness over the shooting of President John Kennedy. I was shocked that I, an American, heard about the events in Dallas from a British subject. A moment later another ham located at one of our air force bases in Greenland asked if there was a way to learn more.
-            <br><br>W2CXM then became the “unofficial” rebroadcaster of CBS news reports of the shooting. I'm not sure that was legal, but I really didn't care at the time.
-            <br><br>A few years later on my station located in my fraternity house I had a room full of brothers listening to my QSO with a military hospital ship in the South China Sea off the coast of Viet Nam. It was the closest most of us ever got to the war. We could even hear explosions in background…
-            <br><br>I'm sure some our radio brothers went on to do some wonderful and exciting things. But, remember, we did our programming and math on punch cards, slide rules and motor driven mechanical rotary calculators. We would punch in our numbers and go out for a cup of coffee. When we got back, we either had the answer or found our calculator had danced off the table onto the floor.
-            <br><br>Basic was a new langugage and the most exciting thing on engineering campus was a TTY attached to the phone line connecting it to a far away computer system.
-            <br><br>As engineers we made a visit to the IBM plant making the new integrated circuits. They were very proud that their yield on 7400 chips was about 3 chips in 100."
-          </details>
-        image: assets/img/timeline/60s.jpg
-      - title: "1970's"
-        desc: |
-          <details>
-            <summary>Bill Kelsey, N8ET, provides the following bits of history from the late 60's and early 70's</summary>
-            <br>"I went to Cornell BSEE '70, MBA '74, and was active at W2CXM during that time, and was president of the club around the '69 timeframe. Other calls that were active at that time were WB2CPV (now K1EA who wrote CT contest software) WB2CPU who has written several articles in the past few years, WA3HRV - now K3RV who does the propagation column in the NCJ. My call was WB2FGA - now N8ET - and any of your members who are into QRP might recognize my company - Kanga US - that sells QRP kits.
-            <br><br>I remember pieces of the antenna that is in the picture (above), but by the time I was a member we had a TH6 up on the tower. There was also an end-fed zepp that was strung between the two towers on Barton Hall, and as I recall it played quite well. It was fed thru a homebrew tuner that was mounted in the west window on the south wall of the tower.
-            <br><br>Equipment during those years consisted of a Central Electronics 200V transmitter (no tune - quite a novelty in those days) and it seems like there was a 75A4 rcvr for a while. We also had some Hallicrafters gear. I can remember the Johnson TX that is in one of the pictures (above) - I have no idea who the operator in the picture is though…. We also had a Swan Amplifier (pair of 3-400Z's that literally self-destructed one day - it arced from the plate cap to the case. I think we were able to salvage the final tank capacitor….. We rebuilt it with an external power supply, and it worked a lot better after that!)
-            <br><br>K1EA and K3RV used to do quite well in contests from W2CXM back in the late '60s and early '70s - both the DX tests and the ARRL CD parties. No memory keyers, but we had an early keyer (12AT7'a and a relay as I recall), and they could really make it play.
-            <br><br>One other comment for your historian - KA9Q - who wrote NOS for packet - was from Cornell, and I assume was a member of W2CXM."
-          </details>
-        image: assets/img/timeline/70s.jpg
-      - title: "1980's"
-        desc: |
-          <details>
-            <summary>Some of the highlights of this time period included:</summary>
-            <br>• Moving the antennas to the South tower.
-            <br>• Installing two runs of 7/8“ hardline between the towers along the catwalks in Barton.
-            <br>• Station activity really picked up after moving the antennas. The TH6DXX tribander, tower, rotor, 7/8” hardline, and the F9FT 2-meter horizontal Yagi were acquired by the club in 1979.
-            <br>• Running licensing classes for Novices through the Experimental College.
-            <br>• Refurbishing the 2-meter repeater and converting it to microprocessor control using a SYM-1 6502-based controller that was programmed by paper tape!
-            <br>• Linking the 10-meter repeater to the 2-meter repeater. Talking to people all over the country using 10-meters from a handheld 2-meter rig on campus was quite a kick.
-            <br>• Converting old CB radios to 10 meter FM rigs.
-            <br>• Receiving a significant “donation” from the Physics department in the form of a lot of old junk they were going to throw out. Some of this junk is probably still cluttering the closets of W2CXM, having never been used. One notable piece of junk was some avionics radar pod that looked pretty cool.
-            <br>• In 1987, WA2PKP built a 24GHz Gunnplexer while he worked at M/A-Com, which was intended to serve as a two-way audio link between the repeater on Bradfield and the telephone line at the club station in Barton. It used an FM radio for the IF receiver.
-            <br>• Following the Mexico City earthquake of September 1985, W2CXM played an important role in helping Ithacans contact friends and family there. An article about W2CXM appeared in the September 28, 1988 issue of the Cornell Daily Sun.
-            <br><br> With the late 1980's came the W2CXM cube radio, a simple 2-meter receiver made from a modified Radio Shack weather radio cube. The cube was originally designed for a tech/general licensing class to listen in on repeaters for code practice. Headed by advisor and former president, Steve Powell, N2BU, club members assembled and sold kits for the cube radio at local hamfests. Alex Rudd (President CARC, '86-'89), KA2ZOO, comments on the huge success of the project: “As Steve might attest, for all the money generated and pride taken, the weather cube project got to be a little overwhelming. We all had fun (I think) lining up assembly-line style to put together weather cube conversion kits and selling completed cubes at area hamfests, but most of us were pretty happy when the whole thing was over and done with, too.” An article about the W2CXM cube radio appears in the June 1987 issue of QST.
-          </details>
-        image: assets/img/timeline/80s.jpg
-      - title: "1990's"
-        desc: |
-          <details>
-            <summary>Amateur Satellite Station</summary>
-            <br>
-            The last few years of the 90s brought an increased interest in satellite communications, with both current and alumni club members pitching in to build antenna tracking arrays and making contacts.
-          </details>
-        image: assets/img/timeline/90s.jpg
-      - title: "2000's"
-        desc: |
-          <details>
-            <summary>Activity on Amateur frequencies</summary>
-            <br>
-            The early 2000's saw a big increase in club popularity on campus, 
-            with the increased club size backing SAFC funding requests that 
-            netted project kits and new antennas, including a large Force12 
-            10-40m yagi which was mounted on Barton Hall South Tower and 
-            gave the club a worldwide presence. Popular events were foxhunts, 
-            project build nights, and pizza meetings, as well as voice, CW 
-            and digital contesting. The club won the University category in 
-            various national and international contests and set several 
-            contest records. The club also hosted an ISS contact session in 
-            Sept 2003 with Cornell alum Edward Lu '84 who was aboard the 
-            ISS at the time. After returning from his six months in space, 
-            Ed visited campus in June 2004 and was greeted by many club 
-            members, including those who talked to him during the contact. 
-            Club members featured prominently in early campus satellite 
-            project groups, including DawgSTAR and ICEcube, designing and 
-            building onboard radio systems and ground stations. ICEcube 
-            was set to use the W2CXM callsign from space but the launch vehicle 
-            shut down during flight and crashed into the Kazakh steppes, 
-            destroying all payloads.
-          </details>
-        image: assets/img/timeline/00s.jpg
-        align: right
+team:
+  title: "Officers"
+  text: ""
+  subtext: ""
+  section: team
+  people:
+    - name: "Tesla Lukow"
+      role: "President"
+      social:
+        - url: mailto:tjl248@cornell.edu
+          icon: fas fa-envelope
+    - name: "Polina Doronkina"
+      role: "Vice President"
+      social:
+        - url: mailto:pd445@cornell.edu
+          icon: fas fa-envelope
+    # - name: "Valene McInerney"
+    #   role: "Treasurer"
+    #   social:
+    #     - url: mailto:vrm39@cornell.edu
+    #       icon: fas fa-envelope
+    # - name: "Bobby King"
+    #   role: "Secretary"
+    #   image: assets/img/team/bobby.png
+    #   social:
+    #     - url: mailto:rjm496@cornell.edu
+    #       icon: fas fa-envelope
+    - name: "Avram Dreyer"
+      role: "Secretary"
+      image: assets/img/team/avram.jpg
+      social:
+        - url: mailto:ajd335@cornell.edu
+          icon: fas fa-envelope
+    - name: "Pradhyum Rajasekar"
+      role: "Treasurer"
+      social:
+        - url: mailto:pr483@cornell.edu
+          icon: fas fa-envelope
+    - name: "Steven Whitney"
+      role: "Couch Carrier"
+      image: assets/img/team/newersteven.png
+      social:
+        - url: mailto:w2cxm@w2cxm.org
+          icon: fas fa-envelope
+    - name: "Mike Hojnowski"
+      role: "Advisor"
+      image: assets/img/team/mike.jpeg
+      social:
+        - url: mailto:kd2eat@gmail.com
+          icon: fas fa-envelope
 
-  team:
-    title: "Officers"
-    text: ""
-    subtext: ""
-    section: team
-    people:
-      - name: "Tesla Lukow"
-        role: "President"
-        social:
-          - url: mailto:tjl248@cornell.edu
-            icon: fas fa-envelope
-      - name: "Polina Doronkina"
-        role: "Vice President"
-        social:
-          - url: mailto:pd445@cornell.edu
-            icon: fas fa-envelope
-      # - name: "Valene McInerney"
-      #   role: "Treasurer"
-      #   social:
-      #     - url: mailto:vrm39@cornell.edu
-      #       icon: fas fa-envelope
-      # - name: "Bobby King"
-      #   role: "Secretary"
-      #   image: assets/img/team/bobby.png
-      #   social:
-      #     - url: mailto:rjm496@cornell.edu
-      #       icon: fas fa-envelope
-      - name: "Avram Dreyer"
-        role: "Secretary"
-        image: assets/img/team/avram.jpg
-        social:
-          - url: mailto:ajd335@cornell.edu
-            icon: fas fa-envelope
-      - name: "Pradhyum Rajasekar"
-        role: "Treasurer"
-        social:
-          - url: mailto:pr483@cornell.edu
-            icon: fas fa-envelope
-      - name: "Steven Whitney"
-        role: "Couch Carrier"
-        image: assets/img/team/newersteven.png
-        social:
-          - url: mailto:w2cxm@w2cxm.org
-            icon: fas fa-envelope
-      - name: "Mike Hojnowski"
-        role: "Advisor"
-        image: assets/img/team/mike.jpeg
-        social:
-          - url: mailto:kd2eat@gmail.com
-            icon: fas fa-envelope
+contact:
+  title: "Join"
+  section: contact
+  text: The club has a mailing list that is used by members for club announcements and club related traffic. To subscribe to this list, send a message to hamradio-l-request@cornell.edu with "join" on a single line in the body of the message. Find more information on CampusGroups.
+  submit: "CampusGroups"
 
-  contact:
-    title: "Join"
-    section: contact
-    text: The club has a mailing list that is used by members for club announcements and club related traffic. To subscribe to this list, send a message to hamradio-l-request@cornell.edu with “join” on a single line in the body of the message. Find more information on CampusGroups.
-    submit: "CampusGroups"
-
-  footer:
-    social:
-      - url: https://www.youtube.com/channel/UC_bR3oU5WFqyr0DrdO-_a8w/featured
-        icon: "fab fa-youtube"
-      - url: https://www.facebook.com/W2CXM/
-        icon: "fab fa-facebook-f"
-      - url: https://github.com/W2CXM
-        icon: "fab fa-github"
-
-en-US:
-  <<: *DEFAULT_EN
-en-CA:
-  <<: *DEFAULT_EN
-en-GB:
-  <<: *DEFAULT_EN
-en-AU:
-  <<: *DEFAULT_EN
+footer:
+  social:
+    - url: https://www.youtube.com/channel/UC_bR3oU5WFqyr0DrdO-_a8w/featured
+      icon: "fab fa-youtube"
+    - url: https://www.facebook.com/W2CXM/
+      icon: "fab fa-facebook-f"
+    - url: https://github.com/W2CXM
+      icon: "fab fa-github"
