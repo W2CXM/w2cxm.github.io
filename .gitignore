@@ -1,1 +1,8 @@
 **/.DS_Store
+CLAUDE.md
+docker-compose.yml
+.claude
+.playwright-mcp
+docs/.jekyll-cache
+docs/_site
+docs/_THEME_VENDORED.md
