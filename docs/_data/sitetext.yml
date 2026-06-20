@@ -1,6 +1,6 @@
 header:
   title: ""
-  text: Cornell's Premiere Amateur Radio Club Since 1915
+  text: Cornell's Home For Amateur Radio Since 1915
   button: Join
   buttonlink: "#contact"
 
@@ -159,6 +159,7 @@ team:
   people:
     - name: "Tesla Lukow"
       role: "President"
+      image: assets/img/team/tesla.jpg
       social:
         - url: mailto:tjl248@cornell.edu
           icon: fas fa-envelope
@@ -186,14 +187,15 @@ team:
           icon: fas fa-envelope
     - name: "Pradhyum Rajasekar"
       role: "Treasurer"
+      image: assets/img/team/pradhyum.jpg
       social:
         - url: mailto:pr483@cornell.edu
           icon: fas fa-envelope
-    - name: "Steven Whitney"
-      role: "Couch Carrier"
-      image: assets/img/team/newersteven.png
+    - name: "Andrew Lewis"
+      role: "VE Liason"
+      image: assets/img/team/andrew.jpg
       social:
-        - url: mailto:w2cxm@w2cxm.org
+        - url: mailto:ail36@cornell.edu
           icon: fas fa-envelope
     - name: "Mike Hojnowski"
       role: "Advisor"
@@ -205,7 +207,7 @@ team:
 contact:
   title: "Join"
   section: contact
-  text: The club has a mailing list that is used by members for club announcements and club related traffic. To subscribe to this list, send a message to hamradio-l-request@cornell.edu with "join" on a single line in the body of the message. Find more information on CampusGroups.
+  text: To learn more about W2CXM and be notified of club meetings and events, please consider joining our mailing list through CampusGroups! Please note that if you do not have a Cornell netid, you must first create a guest account.
   submit: "CampusGroups"
 
 footer:
@@ -216,3 +218,5 @@ footer:
       icon: "fab fa-facebook-f"
     - url: https://github.com/W2CXM
       icon: "fab fa-github"
+    - url: mailto:w2cxm@cornell.edu
+      icon: fas fa-envelope
