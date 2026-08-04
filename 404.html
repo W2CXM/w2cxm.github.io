@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>Cornell Amateur Radio Club</title>
+    <script>
+        switch (window.location.pathname.replace(/\//g, '')) {
+            // Site migration
+            case 'home':
+                location.replace('/');
+                break;
+            case 'join':
+                location.replace('https://cornell.campusgroups.com/feeds?type=club&type_id=26680&tab=home');
+                break;
+            default:
+                if (window.location.pathname.replace(/\//g, '').startsWith('x')) {
+                    location.replace('/Constitution.pdf');
+                }
+                setTimeout(() => {
+                    location.replace('/');
+                }, 1500);
+        }
+    </script>
+</head>
+
+<body style="font-family: monospace;">
+    This page may have moved? We're sorry about that! We'll take you home.<br><br>~The Cornell Amateur Radio Club.
+</body>
+
+</html>
