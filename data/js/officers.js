@@ -8,14 +8,14 @@ const officers = [
     {
         title: "President",
         highlight: true,
-        officer: "Tesla Lukow",
-        netid: "KE2HFQ"
+        officer: "Tesla Lukow, KE2HFQ",
+        netid: "tjl248"
     },
     {
         title: "Vice President",
         highlight: true,
-        officer: "Polina Doronkina",
-        netid: "KO6IQL"
+        officer: "Polina Doronkina, KO6IQL",
+        netid: "pd445"
     },
     {
         title: "Secretary",
@@ -30,14 +30,14 @@ const officers = [
     {
         title: "VE Liaison",
         highlight: false,
-        officer: "Andrew Lewis",
-        netid: "AD2EQ"
+        officer: "Andrew Lewis, AD2EQ",
+        netid: "ail36"
     },
     {
         title: "Advisor",
         highlight: false,
-        officer: "Mike Hojnowski",
-        netid: "KD2EAT"
+        officer: "Mike Hojnowski, KD2EAT",
+        netid: "mqh1"
     }
 ]
 
