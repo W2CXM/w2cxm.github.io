@@ -20,12 +20,14 @@ const officers = [
     {
         title: "Secretary",
         highlight: false,
-        officer: "Avram Dreyer"
+        officer: "Avram Dreyer",
+        netid: "ajd335"
     },
     {
         title: "Treasurer",
         highlight: false,
-        officer: "Pradhyum Rajasekar"
+        officer: "Pradhyum Rajasekar",
+        netid: "pr483"
     },
     {
         title: "VE Liaison",
