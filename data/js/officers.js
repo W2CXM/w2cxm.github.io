@@ -20,7 +20,7 @@ const officers = [
     {
         title: "Secretary",
         highlight: false,
-        officer: "Avram Dreyer",
+        officer: "Avram Dreyer, KE2JFY",
         netid: "ajd335"
     },
     {
